@@ -39,3 +39,20 @@ h1{
         margin-left: 40px;
     }
 }
+
+
+/* Contact */
+#contact{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#contact a {
+    text-decoration: none;
+    color:forestgreen;
+}
+
+#input-btn{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
