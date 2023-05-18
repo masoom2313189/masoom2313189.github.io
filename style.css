@@ -40,6 +40,18 @@ h1{
     }
 }
 
+/* Education */
+#education{
+    padding-bottom: 50px;
+}
+
+#card-color{
+    color: blue !important;
+}
+
+#education img{
+    height: 200px;
+}
 
 /* Contact */
 #contact{
