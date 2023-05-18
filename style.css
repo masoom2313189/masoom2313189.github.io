@@ -6,8 +6,8 @@
 
 /* Skills */
 h1{
-    margin-top: 50px;
-    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 #skill-img{
@@ -53,6 +53,13 @@ h1{
     height: 200px;
 }
 
+
+/* Certificates */
+#certificates{
+    margin-bottom: 50px;
+}
+
+
 /* Contact */
 #contact{
     padding-top: 50px;
@@ -68,6 +75,8 @@ h1{
     margin-top: 20px;
     margin-bottom: 50px;
 }
+
+
 
 
 /* Footer  */
