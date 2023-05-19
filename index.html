@@ -21,10 +21,54 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   </head>
   <body>
+
+    <!-- Navbar  -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top" >
+      <div class="container-fluid" id="navbar">
+        <img id="logo" src="/Images/logo-white.png" alt="logo" class="img-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          </ul>
+          <div class="d-flex" id="navbar-list">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#h-about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#h-skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#h-educations">Educations</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#h-projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#h-certificates">Certificates</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#h-contacts">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+    <button onclick="topFunction()" id="myBtn" title="Back to Top"><i class="bi bi-arrow-up-circle-fill"></i></button>
+    
     <!-- container-fluid Start  -->
     <div class="container-fluid">
+      <!-- About  -->
+      <h1 id="h-about" class="text-center">About</h1>
       <!-- Skills  -->
-      <h1 class="text-center">Skills</h1>
+      <h1 id="h-skills" class="text-center">Skills</h1>
       <div class="row justify-content-around" id="skill">
         <div class="col-5 col-sm-3 col-md-3 col-lg-2 col-xl-1 text-center" id="skill-img" onmousemove="myMove()">
           <img src="/Images/html.png" alt="html" class="img-fluid">
@@ -94,55 +138,189 @@
       </div>
 
       <!-- Education  -->
-      <h1 class="text-center">Education</h1>
+      <h1 id="h-educations" class="text-center">Educations</h1>
       <div class="row justify-content-center" id="education">
-        <div class="col-md-5 col-xl-3 col-11 mb-3">
+        <div class="col-md-5 col-xl-3 col-11 mb-5">
           <div class="card mx-auto" style="width: 18rem;">
             <img src="/Images/coding.png" class="card-img-top img-fluid" alt="coding" >
             <div class="card-body">
               <h5 class="card-title">Coding Ninjas</h5>
               <p class="card-text">Full Stack Web Development</p>
-              <p class="card-text text-end"><small id="card-color" class="text-body-secondary">Feb, 2023 -  Present</small></p>
+              <p class="card-text text-end"><small id="card-color" class="text-body-secondary"><i class="bi bi-calendar-fill"></i> Feb, 2023 -  Present</small></p>
             </div>
           </div>
         </div>
-        <div class="col-md-5 col-xl-3 col-11 mb-3">
+        <div class="col-md-5 col-xl-3 col-11 mb-5">
           <div class="card mx-auto" style="width: 18rem;">
             <img src="/Images/rn.jpeg" class="card-img-top img-fluid" alt="rn" >
             <div class="card-body">
               <h5 class="card-title">Raj Narain College</h5>
               <p class="card-text">Bachlore of Computer Application</p>
-              <p class="card-text text-end"><small id="card-color" class="text-body-secondary">2020 -  2023 (Present)</small></p>
+              <p class="card-text text-end"><small id="card-color" class="text-body-secondary"><i class="bi bi-calendar-fill"></i> 2020 -  2023 (Present)</small></p>
             </div>
           </div>
         </div>
-        <div class="col-md-5 col-xl-3 col-11 mb-3">
+        <div class="col-md-5 col-xl-3 col-11 mb-5">
           <div class="card mx-auto" style="width: 18rem;">
             <img src="/Images/jl.jpeg" class="card-img-top img-fluid" alt="jl" >
             <div class="card-body">
               <h5 class="card-title">Jamuni Lal College</h5>
               <p class="card-text">Intermediate</p>
-              <p class="card-text text-end"><small id="card-color" class="text-body-secondary">2020</small></p>
+              <p class="card-text text-end"><small id="card-color" class="text-body-secondary"><i class="bi bi-calendar-check-fill"></i> 2020</small></p>
             </div>
           </div>
         </div>
-        <div class="col-md-5 col-xl-3 col-11 mb-3">
+        <div class="col-md-5 col-xl-3 col-11 mb-5">
           <div class="card mx-auto" style="width: 18rem;">
             <img src="/Images/sahyogi.jpg" class="card-img-top img-fluid" alt="sahyogi" >
             <div class="card-body">
               <h5 class="card-title">Sahyogi Higher Sec. School</h5>
               <p class="card-text">Matriculation</p>
-              <p class="card-text text-end"><small id="card-color" class="text-body-secondary">2018</small></p>
+              <p class="card-text text-end"><small id="card-color" class="text-body-secondary"><i class="bi bi-calendar-check-fill"></i> 2018</small></p>
             </div>
           </div>
         </div>
       </div>
       <!-- Projects -->
+      <h1 id="h-projects" class="text-center">Projects</h1>
+      <div class="row justify-content-center" id="projects">
+        <!-- Veterinary -->
+        <div class="card mb-3 col-lg-10" id="projects-text" >
+          <div class="row g-0">
+            <div class="col-md-5">
+              <img id="projects-img" src="/Images/veterinary.png" class="img-fluid rounded" alt="veterinary">
+            </div>
+            <div class="col-md-7">
+              <div class="card-body">
+                <h2 class="card-title">Veterinary</h2>
+                <p class="card-text">Our first veterinary website provides a stellar example of proper brand color usage and easy access to information.</p>
+                <h5>It is an individual project made by me.</h5>
+                <div id="projects-tool">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Javascript</span>
+                <span>Bootstrap</span>
+                </div>
+                <a href="https://github.com/masoom2313189/Veterinary" role="button" class="btn btn-primary"><i class="bi bi-github"></i> Github</a>
+                <a href="https://loveveterinary.netlify.app" role="button" class="btn btn-success"><i class="bi bi-browser-chrome"></i> Go Live</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sephora  -->
+        <div class="card mb-3 col-lg-10" id="projects-text" >
+          <div class="row g-0">
+            <div class="col-md-5">
+              <img id="projects-img" src="/Images/sephora.png" class="img-fluid rounded" alt="sephora">
+            </div>
+            <div class="col-md-7">
+              <div class="card-body">
+                <h2 class="card-title">Sephora Clone</h2>
+                <p class="card-text">An e-commerce website that sells beauty, wellness, and fashion products across websites. Online Shopping Site for Designer Clothes, Accessories & Lifestyle Products.</p>
+                <h5>It is an individual project made by me.</h5>
+                <div id="projects-tool">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Javascript</span>
+                <span>React</span>
+                <span>ChakraUI</span>
+                </div>
+                <a href="https://github.com/masoom2313189/-messy-home-6295" role="button" class="btn btn-primary"><i class="bi bi-github"></i> Github</a>
+                <a href="https://lnkd.in/dBXESAW4" role="button" class="btn btn-success"><i class="bi bi-browser-chrome"></i> Go Live</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <p>
+          <button id="projects-btn" class="btn btn-danger d-grid mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+            See More Projects 
+          </button>
+        </p>
+
+        <div style="min-height: 120px;" class="">
+          <div class="collapse collapse" id="collapseWidthExample">
+            <!-- Farfetch  -->
+        <div class="card mb-3 col-lg-10 mx-auto" id="projects-text" >
+          <div class="row g-0">
+            <div class="col-md-5">
+              <img id="projects-img" src="/Images/farfetch.png" class="img-fluid rounded" alt="farfetch">
+            </div>
+            <div class="col-md-7">
+              <div class="card-body">
+                <h2 class="card-title">Farfetch Clone</h2>
+                <p class="card-text">An e-commerce website that sells beauty, wellness, and fashion products across websites. Online Shopping Site for Designer Clothes, Accessories & Lifestyle Products.</p>
+                <h5>A collaborative project, built in 5 days by a team of 5 developers.</h5>
+                <div id="projects-tool">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Javascript</span>
+                </div>
+                <a href="https://github.com/masoom2313189/Farfetch_Clone" role="button" class="btn btn-primary"><i class="bi bi-github"></i> Github</a>
+                <a href="https://lnkd.in/dqtdi7xJ" role="button" class="btn btn-success"><i class="bi bi-browser-chrome"></i> Go Live</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Cricinfo -->
+        <div class="card mb-3 col-lg-10 mx-auto" id="projects-text" >
+          <div class="row g-0">
+            <div class="col-md-5">
+              <img id="projects-img" src="/Images/cricinfo.png" class="img-fluid rounded" alt="cricinfo">
+            </div>
+            <div class="col-md-7">
+              <div class="card-body">
+                <h2 class="card-title">ESPNcricinfo Clone</h2>
+                <p class="card-text">ESPN cricinfo is a sports news website exclusively for the game of cricket. The site features news, articles, live coverage of cricket matches.</p>
+                <h5>A collaborative project, built in 5 days by a team of 4 developers.</h5>
+                <div id="projects-tool">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Javascript</span>
+                <span>JSON-Server</span>
+                </div>
+                <a href="https://github.com/VaishnaviAgrawa12/ESPN-cricinfo-clone" role="button" class="btn btn-primary"><i class="bi bi-github"></i> Github</a>
+                <a href="https://lnkd.in/d2sQbm5Q" role="button" class="btn btn-success"><i class="bi bi-browser-chrome"></i> Go Live</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- The Hindu  -->
+        <div class="card mb-3 col-lg-10 mx-auto" id="projects-text" >
+          <div class="row g-0">
+            <div class="col-md-5">
+              <img id="projects-img" src="/Images/hindu.png" class="img-fluid rounded" alt="hindu">
+            </div>
+            <div class="col-md-7">
+              <div class="card-body">
+                <h2 class="card-title">The Hindu Clone</h2>
+                <p class="card-text">The Hindu is an Indian English-language daily newspaper.</p>
+                <h5>A collaborative project, built in 5 days by a team of 4 developers.</h5>
+                <div id="projects-tool">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Javascript</span>
+                <span>JSON-Server</span>
+                </div>
+                <a href="https://github.com/masoom2313189/splendid-quiver-7090" role="button" class="btn btn-primary"><i class="bi bi-github"></i> Github</a>
+                <a href="https://lnkd.in/dCKYmV3d" role="button" class="btn btn-success"><i class="bi bi-browser-chrome"></i> Go Live</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+          </div>
+        </div>
+
+      </div>
       
       <!-- Certificate -->
-      <h1 class="text-center">Certificates</h1>
+      <h1 id="h-certificates" class="text-center">Certificates</h1>
       
-      <div class="row justify-content-center" id="certificates">
+      <div class="row justify-content-between" id="certificates">
         <div class="col-md-5 mb-5">
           <!-- Certificate of Completion -->
         <h2 class="text-center">Certificate of Completion</h2>
@@ -212,7 +390,7 @@
     </div>
 
     <!-- Contact  -->
-    <div class="container">
+    <div id="h-contacts" class="container">
       <h1 class="text-center">Contact Me</h1>
 
       <!-- Contact Me -->
@@ -273,7 +451,7 @@
     </div>
       
     <!-- Footer  -->
-    <div id="footer" class="text-center">
+    <div id="footer" class="container-fluid text-center">
       <p>© 2023 Masoom. Design by Me with <i class="bi bi-heart-fill"></i></p>
     </div>
       <!-- Script  -->

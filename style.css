@@ -3,12 +3,50 @@
     padding-left: 5%;
     padding-right: 5%;
 }
-
-/* Skills */
 h1{
     padding-top: 50px;
     padding-bottom: 50px;
+    color:dodgerblue;
 }
+
+/* Navbar  */
+#logo{
+    width: 80px;
+}
+
+#navbar-list li a {
+font-size: 20px;
+color: white;
+}
+
+#navbar{
+    background-color: #7430F9;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: red; 
+    color: white; 
+    cursor: pointer; 
+    padding: 5px 12px; 
+    border-radius: 50%; 
+    font-size: 30px;
+  }
+  
+  #myBtn:hover {
+    background-color: #e93434;
+  }
+
+/* About  */
+
+
+/* Skills */
 
 #skill-img{
     padding: 20px;
@@ -60,6 +98,65 @@ h1{
 }
 
 
+/* Projects  */
+
+
+#projects-img{
+    width: 500px;
+    height: 300px;
+}
+
+#projects-text{
+    border: 10px solid rgba(128, 128, 128, 0.319);
+    border-radius: 25px;
+}
+
+@media only screen and (max-width:1200px){
+    #projects-img{
+        height: 250px;
+    }
+}
+
+@media only screen and (max-width:1200px){
+    #projects-img{
+        width: 500px;
+        height: 200px;
+    }
+}
+
+#projects-tool{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+#projects-tool span {
+    background-color: dodgerblue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#projects-tool span{
+    display: inline-block;
+    margin-top: 10px;
+} 
+
+@media only screen and (max-width:433px){
+    #projects a {
+        margin-bottom: 10px;
+    }
+}
+
+#projects a {
+    margin-right: 20px;
+}
+
+#projects-btn{
+    margin-top: 50px;
+}
+
 /* Contact */
 #contact{
     padding-top: 50px;
@@ -90,3 +187,4 @@ h1{
 #footer i {
     color:greenyellow;
 }
+
