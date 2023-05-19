@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Masoom Rizvi</title>
-    <link rel="shortcut icon" href="/Images/logo-white.png" type="image/x-icon">
+    <link rel="shortcut icon" href="/Images/mr-circle.png" type="image/x-icon">
 
     <!-- Bootstrap CSS  -->
     <link
@@ -23,9 +23,9 @@
   <body>
 
     <!-- Navbar  -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top" >
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top bg-primary" >
       <div class="container-fluid" id="navbar">
-        <img id="logo" src="/Images/logo-white.png" alt="logo" class="img-fluid">
+        <img id="logo" src="/Images/mr-circle.png" alt="logo" class="img-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -38,7 +38,7 @@
                 <a class="nav-link" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#h-about">About</a>
+                <a class="nav-link" href="#">About</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#h-skills">Skills</a>
@@ -61,12 +61,36 @@
       </div>
     </nav>
     
+    <!-- Back to Top Button  -->
     <button onclick="topFunction()" id="myBtn" title="Back to Top"><i class="bi bi-arrow-up-circle-fill"></i></button>
     
+    <!-- About  -->
+    <div class="row" id="about">
+      <div class="row justify-content-center">
+        <div class="col-xl-3 col-10 text-center" id="about-img">
+          <img src="/Images/Masoom-bg.png" alt="Masoom" class="img-fluid">
+        </div>
+        <div class="col-xl-5 col-10" id="about-text">
+          <h3 id="heading" aria-label="Hi! I'm a developer">
+            Hi! I'm Masoom Rizvi.</h3>
+            <p>An aspiring full stack developer with a specialization in MERN stack. Keenly interested in problem-solving and making user-centric products, self-motivated and curious. Looking forward to honing my skills in a challenging work environment.</p>
+            <button class="btn btn-success">Download CVs</button>
+            <button class="btn btn-success">Contact Us</button>
+          </div>
+      </div>
+
+      <div class="row justify-content-center" id="about-second">
+        <div class="col-xl-5 col-lg-8 col-10">
+          <h3>I am <b><span>Full Stack Web Developer</span></b></h3>
+          <p>My name is Masoom Rizvi, I am from Hajipur, Vaishali, Bihar. Passionate Full Stack Web Developer with skills in the MERN stack and DSA completed with JAVA, I have learned Full Stack Web Development in Coding Ninjas. Skilled in problem- solving and execution of software tasks from start to finish. I look forward to joining a company where I can contribute to individual and company growth..</p>
+        </div>
+        <div class="col-lg-2  col-md-l"></div>
+      </div>
+    </div>
+
     <!-- container-fluid Start  -->
     <div class="container-fluid">
-      <!-- About  -->
-      <h1 id="h-about" class="text-center">About</h1>
+      
       <!-- Skills  -->
       <h1 id="h-skills" class="text-center">Skills</h1>
       <div class="row justify-content-around" id="skill">

@@ -16,11 +16,18 @@ h1{
 
 #navbar-list li a {
 font-size: 20px;
-color: white;
+color:darkblue;
 }
+nav{
+    background-image: url(/Images/bg-navbar.jpg);
+    background-size: cover;
 
+}
 #navbar{
-    background-color: #7430F9;
+    background-image: url(/Images/bg-navbar.jpg);
+    background-size: cover;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 #myBtn {
@@ -44,8 +51,51 @@ color: white;
   }
 
 /* About  */
+#about{
+    background-image: url(/Images/about-bg.png);
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+}
 
+#about-img img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-bottom: 20px;
+}
+#heading{
+font-size: 7vmin;
+  color: #8bf;
+  font-family: Lato, sans-serif;
+  font-weight: 700;
+}
 
+#about-text p {
+    color:antiquewhite;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 25px;
+}
+
+#about-second{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#about-second h3{
+    color: white;
+}
+#about-second h3 span{
+    color:aquamarine;
+}
+#about-second p{
+    text-align: justify;
+    line-height: 30px;
+    font-size: 18px;
+    color:burlywood;
+}
 /* Skills */
 
 #skill-img{
