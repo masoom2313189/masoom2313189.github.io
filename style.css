@@ -54,7 +54,7 @@ nav{
 #about{
     background-image: url(/Images/about-bg.png);
     background-size: cover;
-    padding-top: 50px;
+    padding-top: 100px;
     padding-bottom: 50px;
     color: white;
 }
@@ -63,7 +63,7 @@ nav{
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    border: 2px solid white;
+    border: 5px solid white;
     margin-bottom: 20px;
 }
 #heading{
@@ -94,7 +94,8 @@ font-size: 7vmin;
     text-align: justify;
     line-height: 30px;
     font-size: 18px;
-    color:burlywood;
+    font-weight: bold;
+    color:lightyellow;
 }
 /* Skills */
 
