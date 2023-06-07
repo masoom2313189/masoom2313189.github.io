@@ -1,241 +1,241 @@
-.container-fluid{
-    background-color: #F8F9FA;
-    padding-left: 5%;
-    padding-right: 5%;
+.container-fluid {
+  background-color: #f8f9fa;
+  padding-left: 5%;
+  padding-right: 5%;
 }
-h1{
-    padding-top: 50px;
-    padding-bottom: 50px;
-    color:dodgerblue;
+h1 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: dodgerblue;
+  text-decoration: underline;
 }
 
 /* Navbar  */
-#logo{
-    width: 80px;
+#logo {
+  width: 80px;
 }
 
 #navbar-list li a {
-font-size: 20px;
-color:darkblue;
+  font-size: 20px;
+  color: darkblue;
 }
-nav{
-    background-image: url(/Images/bg-navbar.jpg);
-    background-size: cover;
-
+nav {
+  background-image: url(/Images/bg-navbar.jpg);
+  background-size: cover;
 }
-#navbar{
-    background-image: url(/Images/bg-navbar.jpg);
-    background-size: cover;
-    padding-top: 5px;
-    padding-bottom: 5px;
+#navbar {
+  background-image: url(/Images/bg-navbar.jpg);
+  background-size: cover;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 #myBtn {
-    display: none;
-    position: fixed;
-    bottom: 20px; 
-    right: 30px; 
-    z-index: 99; 
-    border: none; 
-    outline: none; 
-    background-color: red; 
-    color: white; 
-    cursor: pointer; 
-    padding: 5px 12px; 
-    border-radius: 50%; 
-    font-size: 30px;
-  }
-  
-  #myBtn:hover {
-    background-color: #e93434;
-  }
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 5px 12px;
+  border-radius: 50%;
+  font-size: 30px;
+}
+
+#myBtn:hover {
+  background-color: #e93434;
+}
 
 /* About  */
-#about{
-    background-image: url(/Images/about-bg.png);
-    background-size: cover;
-    padding-top: 100px;
-    padding-bottom: 50px;
-    color: white;
+#about {
+  background-image: url(https://www.hyperledger.org/wp-content/uploads/2018/05/HL_ImageLibrary_Backgrounds_Purple48.png);
+  background-size: cover;
+  padding-top: 120px;
+  padding-bottom: 50px;
+  color: white;
 }
 
-#about-img img{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    border: 5px solid white;
-    margin-bottom: 20px;
+#about-img img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid white;
+  margin-bottom: 20px;
 }
-#heading{
-font-size: 7vmin;
+#heading {
+  font-size: 7vmin;
   color: #8bf;
   font-family: Lato, sans-serif;
   font-weight: 700;
 }
 
 #about-text p {
-    color:antiquewhite;
-    font-size: 20px;
-    text-align: justify;
-    line-height: 25px;
+  color: antiquewhite;
+  font-size: 20px;
+  text-align: justify;
+  line-height: 25px;
+  font-weight: bold;
 }
 
-#about-second{
-    margin-top: 50px;
-    margin-bottom: 50px;
+#about-second {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
-#about-second h3{
-    color: white;
+#about-second h3 {
+  color: white;
 }
-#about-second h3 span{
-    color:aquamarine;
+#about-second h3 span {
+  color: aquamarine;
 }
-#about-second p{
-    text-align: justify;
-    line-height: 30px;
-    font-size: 18px;
-    font-weight: bold;
-    color:lightyellow;
+#about-second p {
+  text-align: justify;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
 }
 /* Skills */
 
-#skill-img{
-    padding: 20px;
-    background-color: white;
-    border-radius: 5%;
-    margin-bottom: 50px;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+#skill-img {
+  padding: 20px;
+  background-color: white;
+  border-radius: 5%;
+  margin-bottom: 50px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
-
+#skill-img:hover {
+  cursor: pointer;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
 #skill-img img {
-    width: 80px;
-    margin-bottom: 10px;
-    height: 80px;
+  width: 80px;
+  margin-bottom: 10px;
+  height: 80px;
 }
 
-#skill-img h6{
-    vertical-align: text-bottom;
+#skill-img h6 {
+  vertical-align: text-bottom;
 }
 
-@media only screen and (min-width:576px){
-    #skill-img{
-        margin-left: 20px;
-    }
+@media only screen and (min-width: 576px) {
+  #skill-img {
+    margin-left: 20px;
+  }
 }
 
-@media only screen and (min-width:1200px){
-    #skill-img{
-        margin-left: 40px;
-    }
+@media only screen and (min-width: 1200px) {
+  #skill-img {
+    margin-left: 40px;
+  }
 }
 
 /* Education */
-#education{
-    padding-bottom: 50px;
+#education {
+  padding-bottom: 50px;
+}
+#education > div > div:hover {
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+#card-color {
+  color: blue !important;
 }
 
-#card-color{
-    color: blue !important;
+#education img {
+  height: 200px;
 }
-
-#education img{
-    height: 200px;
-}
-
 
 /* Certificates */
-#certificates{
-    margin-bottom: 50px;
+#certificates {
+  margin-bottom: 50px;
 }
-
 
 /* Projects  */
 
+#projects-img {
+  width: 500px;
+  height: 300px;
+}
 
-#projects-img{
+#projects-text {
+  border: 10px solid rgba(128, 128, 128, 0.319);
+  border-radius: 25px;
+}
+
+@media only screen and (max-width: 1200px) {
+  #projects-img {
+    height: 250px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  #projects-img {
     width: 500px;
-    height: 300px;
+    height: 200px;
+  }
 }
 
-#projects-text{
-    border: 10px solid rgba(128, 128, 128, 0.319);
-    border-radius: 25px;
-}
-
-@media only screen and (max-width:1200px){
-    #projects-img{
-        height: 250px;
-    }
-}
-
-@media only screen and (max-width:1200px){
-    #projects-img{
-        width: 500px;
-        height: 200px;
-    }
-}
-
-#projects-tool{
-    margin-bottom: 30px;
-    margin-top: 30px;
+#projects-tool {
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 #projects-tool span {
-    background-color: dodgerblue;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 25px;
-    font-size: 12px;
-    font-weight: bold;
+  background-color: dodgerblue;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 12px;
+  font-weight: bold;
 }
 
-#projects-tool span{
-    display: inline-block;
-    margin-top: 10px;
-} 
+#projects-tool span {
+  display: inline-block;
+  margin-top: 10px;
+}
 
-@media only screen and (max-width:433px){
-    #projects a {
-        margin-bottom: 10px;
-    }
+@media only screen and (max-width: 433px) {
+  #projects a {
+    margin-bottom: 10px;
+  }
 }
 
 #projects a {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 
-#projects-btn{
-    margin-top: 50px;
+#projects-btn {
+  margin-top: 50px;
 }
 
 /* Contact */
-#contact{
-    padding-top: 50px;
-    padding-bottom: 50px;
+#contact {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 #contact a {
-    text-decoration: none;
-    color:forestgreen;
+  text-decoration: none;
+  color: forestgreen;
 }
 
-#input-btn{
-    margin-top: 20px;
-    margin-bottom: 50px;
+#input-btn {
+  margin-top: 20px;
+  margin-bottom: 50px;
 }
-
-
-
 
 /* Footer  */
-#footer{
-    background-color: blueviolet;
-    padding: 10px;
-    padding-top: 20px;
-    color: white;
+#footer {
+  background-color: blueviolet;
+  padding: 10px;
+  padding-top: 20px;
+  color: white;
 }
 
 #footer i {
-    color:greenyellow;
+  color: greenyellow;
 }
-
