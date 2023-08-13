@@ -52,7 +52,8 @@ nav {
 
 /* About  */
 #about {
-  background-image: url(https://www.hyperledger.org/wp-content/uploads/2018/05/HL_ImageLibrary_Backgrounds_Purple48.png);
+  background-color: #0c4488e3;
+  background-image: url(/Images/background\ image.jpg);
   background-size: cover;
   padding-top: 120px;
   padding-bottom: 50px;
