@@ -32,6 +32,11 @@ function sendMsg(e) {
     From: email.value,
     Subject: subject.value,
     Body: message.value,
+    Attachments: [
+      {
+        name: name.value,
+      },
+    ],
   }).then((message) => alert(message));
 }
 
