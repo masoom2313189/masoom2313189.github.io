@@ -60,6 +60,10 @@ nav {
   color: white;
 }
 
+#me_image {
+  background-color: rgba(49, 49, 210, 0.297);
+}
+
 #about-img img {
   width: 200px;
   height: 200px;
