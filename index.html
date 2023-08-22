@@ -571,33 +571,34 @@
       </div>
 
       <!-- Input Box  -->
-      <div class="row justify-content-center">
+      <form id="form" class="mb-5" action="#">
+        <div class="row justify-content-center">
         <div class="col-md-6 col-11">
           <div class="form-floating mb-3">
-            <input type="name" class="form-control" id="floatingInput" placeholder="Masoom Rizvi">
+            <input type="name" id="name" class="form-control" id="floatingInput" placeholder="Masoom Rizvi">
             <label for="floatingInput">Name</label>
           </div>
           <div class="form-floating mb-3">
-            <input type="email" class="form-control" id="floatingInput" placeholder="masoom2313189@gmail.com">
+            <input type="email" id="email" class="form-control" id="floatingInput" placeholder="masoom2313189@gmail.com">
             <label for="floatingInput">Email</label>
           </div>
           <div class="form-floating mb-3">
-            <input type="text" class="form-control" id="floatingInput" placeholder="Subject">
+            <input type="text" id="subject" class="form-control" id="floatingInput" placeholder="Subject">
             <label for="floatingInput">Subject</label>
           </div>
         </div>
 
         <div class="col-md-6 col-11">
           <div class="form-floating">
-            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 205px"></textarea>
+            <textarea class="form-control" id="message" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 205px"></textarea>
             <label for="floatingTextarea2">Your Message</label>
           </div>
         </div>
         <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-          <button id="input-btn" class="btn btn-primary  btn-lg text-center" type="button">Send Message</button>
+          <button id="button" class="btn btn-primary  btn-lg text-center" type="submit">Send Message</button>
         </div>
       </div>
-    </div>
+    </div></form>
       
     <!-- Footer  -->
     <div id="footer" class="container-fluid text-center">
@@ -611,5 +612,7 @@
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
       crossorigin="anonymous"
     ></script>
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
   </body>
 </html>
