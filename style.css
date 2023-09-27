@@ -161,6 +161,10 @@ nav {
 
 /* Projects  */
 
+#major_project_collapse {
+  margin-top: -50px;
+}
+
 #projects-img {
   width: 500px;
   height: 300px;
