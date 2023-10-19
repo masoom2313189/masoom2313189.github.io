@@ -5,7 +5,7 @@ export const Bio = {
     "I have learned Full Stack Web Development in Coding Ninjas. Skilled in problem- solving and execution of software tasks from start to finish. I look forward to joining a company where I can contribute to individual and company growth...",
   github: "https://github.com/masoom2313189",
   resume:
-    "https://drive.google.com/file/d/1ffZrcMcn8UatXGIaautbbqpV7ADNaETA/view?usp=sharing",
+    "https://drive.google.com/file/d/1M-Fo4p4T2C8NoXQZaikOkEPMz1Ym9FjF/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/masoom2313189/",
   phone: "tel:+916205410891",
   email: "mailto:masoom2313189@gmail.com",
@@ -339,7 +339,7 @@ export const projects = [
       },
     ],
     github: "https://github.com/masoom2313189/Farfetch_Clone",
-    webapp: "https://lnkd.in/dqtdi7xJ",
+    webapp: "https://github.com/masoom2313189/Farfetch_Clone",
   },
 ];
 
