@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bf538fe7.css",
+    "main.js": "/static/js/main.aa468a6d.js",
+    "static/media/Masoom.png": "/static/media/Masoom.5ad7bd6399084f83d7e3.png",
+    "index.html": "/index.html",
+    "main.bf538fe7.css.map": "/static/css/main.bf538fe7.css.map",
+    "main.aa468a6d.js.map": "/static/js/main.aa468a6d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf538fe7.css",
+    "static/js/main.aa468a6d.js"
+  ]
+}
