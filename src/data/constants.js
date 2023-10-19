@@ -163,7 +163,15 @@ export const experiences = [
     company: "TechnoHacks EduTech",
     date: "August 2023",
     desc: "Working on the backend of the web application using NodeJS, EJS and Bootstrap",
-    skills: ["ExpressJs", "NodeJs", "Bootstrap", "EJS", "CSS", "JavaScript"],
+    skills: [
+      "ExpressJs",
+      "NodeJs",
+      "MongoDB",
+      "Bootstrap",
+      "EJS",
+      "CSS",
+      "JavaScript",
+    ],
   },
   {
     id: 2,
@@ -217,7 +225,7 @@ export const education = [
 
 export const projects = [
   {
-    id: 0,
+    id: 12,
     title: "To-Do App React",
     date: "Oct 2023",
     description:
@@ -231,7 +239,7 @@ export const projects = [
     webapp: "https://loquacious-bubblegum-77ecef.netlify.app/",
   },
   {
-    id: 1,
+    id: 11,
     title: "Habit Tracker React App",
     date: "Oct 2023",
     description:
@@ -245,9 +253,22 @@ export const projects = [
     webapp: "https://exquisite-pie-14a40c.netlify.app/",
   },
   {
-    id: 2,
-    title: "Get My Location",
+    id: 10,
+    title: "Weather App",
     date: "Oct 2023",
+    description:
+      "A Weather app project in which user can check weather, temperature, humidity & wind speed all over the world",
+    image:
+      "https://user-images.githubusercontent.com/105916377/276646862-c4956dc3-42e6-4d74-b589-f64948e72de0.png",
+    tags: ["React Js", "CSS"],
+    category: "react",
+    github: "https://github.com/masoom2313189/Weather-App",
+    webapp: "https://weather-app-magic.netlify.app/",
+  },
+  {
+    id: 9,
+    title: "Get My Location",
+    date: "Sep 2023",
     description:
       "Get My Location app project in which user can get your current location.",
     image:
@@ -258,7 +279,20 @@ export const projects = [
     webapp: "https://magical-donut-a69c75.netlify.app/",
   },
   {
-    id: 3,
+    id: 8,
+    title: "Flipkart Clone",
+    date: "Aug 2023",
+    description:
+      "Flipkart Private Limited is an Indian e-commerce company, headquartered in Bangalore, and incorporated in Singapore as a private limited company.",
+    image:
+      "https://user-images.githubusercontent.com/105916377/276643735-57f525b7-6b65-4a72-ba67-a9d6a1c4d53e.png",
+    tags: ["React Js", "SCSS", "Swiper Js", "Material UI"],
+    category: "react",
+    github: "https://github.com/masoom2313189/Flipkart-Clone",
+    webapp: "https://flipkart-react-clone.netlify.app/",
+  },
+  {
+    id: 7,
     title: "Placement Cell",
     date: "Aug 2023",
     description:
@@ -271,7 +305,7 @@ export const projects = [
     webapp: "https://placement-cell-51y4.onrender.com/users/signin",
   },
   {
-    id: 4,
+    id: 6,
     title: "Employee Review System",
     date: "Aug 2023",
     description:
@@ -288,7 +322,7 @@ export const projects = [
     title: "Ecommerce API",
     date: "Aug 2023",
     description:
-      " A Todo Web App made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
+      "Ecommerce API app project in which user can post, update & delete the Data.",
     image:
       "https://www.impactqa.com/wp-content/uploads/2020/04/ImpactQA-APIs-Favoring-E-Commerce-Business-.jpg",
     tags: ["Node Js", "Express Js", "Rest API", "MongoDB"],
@@ -297,7 +331,113 @@ export const projects = [
     webapp: "https://ecommerce-api-5bbt.onrender.com/",
   },
   {
-    id: 6,
+    id: 4,
+    title: "Veterinary",
+    date: "May 2023",
+    description:
+      "Our first veterinary website provides a stellar example of proper brand color usage and easy access to information.",
+    image:
+      "https://user-images.githubusercontent.com/105916377/276623444-5e12eedd-4c79-40c2-8d18-5e77e41c2c42.png",
+    tags: ["HTML", "CSS", "Bootstrap"],
+    category: "frontend",
+    github: "https://github.com/masoom2313189/Veterinary",
+    webapp: "https://loveveterinary.netlify.app/",
+  },
+
+  {
+    id: 3,
+    title: "Sephora Clone",
+    date: "Sep 2022",
+    description:
+      "An e-commerce website that sells beauty, wellness, and fashion products across websites. Online Shopping Site for Designer Clothes, Accessories & Lifestyle Products.",
+    image:
+      "https://user-images.githubusercontent.com/105916377/276620784-7c8fcfbd-dcfa-42e7-9d0a-fd07545aa12a.png",
+    tags: ["React Js", "Chakra UI", "Swiper Js"],
+    category: "react",
+    github: "https://github.com/masoom2313189/-messy-home-6295",
+    webapp: "https://ecommerce-api-5bbt.onrender.com/",
+  },
+
+  {
+    id: 2,
+    title: "The Hindu Clone",
+    date: "Aug 2022",
+    description:
+      "The Hindu is an Indian English-language daily newspaper. It began as a weekly in 1878 and became a daily in 1889. It is one of the Indian newspapers of record and the second most circulated English-language newspaper in India, after The Times of India. ",
+    image:
+      "https://user-images.githubusercontent.com/105916377/276632923-6b7110c3-3c44-43b6-aecb-ae731feaf5ce.png",
+    tags: ["HTML", "CSS", "JavaScript", "API", "JSON-Server"],
+    category: "frontend",
+    member: [
+      {
+        name: "Masoom Rizvi",
+        img: "https://avatars.githubusercontent.com/u/105916377?v=4",
+        linkedin: "https://www.linkedin.com/in/masoom-rizvi-a127b3235/",
+        github: "https://github.com/masoom2313189/",
+      },
+      {
+        name: "Suraj Pratap Singh",
+        img: "https://avatars.githubusercontent.com/u/105967090?v=4",
+        linkedin: "https://www.linkedin.com/in/suraj-pratap-singh-9a6359236/",
+        github: "https://github.com/surajPratap1995",
+      },
+      {
+        name: "Anil Patade",
+        img: "https://media.licdn.com/dms/image/C4E03AQG96Hv3KyYW9g/profile-displayphoto-shrink_400_400/0/1643271124027?e=1703116800&v=beta&t=UZbwqMym2lnT1jZ4cOUL5WRYYwwBIc6mGeWDtNOLjhM",
+        linkedin: "https://www.linkedin.com/in/anil-patade-b4a61a22b/",
+        github: "https://github.com/anilpatade",
+      },
+      {
+        name: "Gourav Lala",
+        img: "https://avatars.githubusercontent.com/u/106036084?v=4",
+        linkedin: "https://www.linkedin.com/in/gourav-lala-47631518a/",
+        github: "https://github.com/gouravlala",
+      },
+    ],
+    github: "https://github.com/masoom2313189/splendid-quiver-7090",
+    webapp: "https://storied-queijadas-3065fd.netlify.app/",
+  },
+  {
+    id: 1,
+    title: "ESPNcricinfo Clone",
+    date: "July 2022",
+    description:
+      "ESPN cricinfo is a sports news website exclusively for the game of cricket. The site features news, articles, live coverage of cricket matches.",
+    image:
+      "https://user-images.githubusercontent.com/105916377/276628268-92be10b9-e50c-4001-bbaf-fc769d46dab6.png",
+    tags: ["HTML", "CSS", "JavaScript", "API", "JSON-Server"],
+    category: "frontend",
+    member: [
+      {
+        name: "Masoom Rizvi",
+        img: "https://avatars.githubusercontent.com/u/105916377?v=4",
+        linkedin: "https://www.linkedin.com/in/masoom-rizvi-a127b3235/",
+        github: "https://github.com/masoom2313189/",
+      },
+      {
+        name: "Vaishnavi Agrawal",
+        img: "https://avatars.githubusercontent.com/u/105974701?v=4",
+        linkedin: "https://www.linkedin.com/in/vaishnavi-agrawal-0220591b7/",
+        github: "https://github.com/VaishnaviAgrawa12",
+      },
+      {
+        name: "Tamilarasan",
+        img: "https://avatars.githubusercontent.com/u/101566604?v=4",
+        linkedin: "https://www.linkedin.com/in/",
+        github: "https://github.com/tamilarasanr27",
+      },
+      {
+        name: "Kundan Wakudkar",
+        img: "https://avatars.githubusercontent.com/u/101393406?v=4",
+        linkedin: "https://www.linkedin.com/in/kundan-wakudkar-b4664b233/",
+        github: "https://github.com/Kundan-10",
+      },
+    ],
+    github: "https://github.com/VaishnaviAgrawa12/ESPN-cricinfo-clone",
+    webapp: "https://sensational-jelly-2204e6.netlify.app/",
+  },
+  {
+    id: 0,
     title: "Farfetch Clone",
     date: "June 2022",
     description:
@@ -350,13 +490,3 @@ export const TimeLineData = [
   { year: 2020, text: "Shared my projects with the world" },
   { year: 2021, text: "Started my own platform" },
 ];
-
-// For Member
-// member: [
-//   {
-//     name: "Masoom Rizvi",
-//     img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-//     linkedin: "https://www.linkedin.com/in/masoom-rizvi",
-//     github: "https://github.com/masoom2313189/",
-//   },
-// ],
