@@ -1,6 +1,11 @@
 export const Bio = {
   name: "Masoom Rizvi",
-  roles: ["Full Stack Web Developer", "MERN Developer", "Software Developer"],
+  roles: [
+    "Full Stack Developer",
+    "MERN Developer",
+    "Software Developer",
+    "Software Engineer",
+  ],
   description:
     "I have learned Full Stack Web Development in Coding Ninjas. Skilled in problem- solving and execution of software tasks from start to finish. I look forward to joining a company where I can contribute to individual and company growth...",
   github: "https://github.com/masoom2313189",
@@ -46,6 +51,11 @@ export const skills = [
           "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
       },
       {
+        name: "TypeScript",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/512px-Typescript_logo_2020.svg.png?20221110153201",
+      },
+      {
         name: "Bootstrap",
         image:
           "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
@@ -56,9 +66,9 @@ export const skills = [
           "https://seeklogo.com/images/M/material-ui-logo-5BDCB9BA8F-seeklogo.com.png",
       },
       {
-        name: "EJS",
+        name: "Tailwind",
         image:
-          "https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_ejs_icon_130626.png",
+          "https://tailwindcss.com/_next/static/media/tailwindcss-mark.3c5441fc7a190fb1800d4a5c7f07ba4b1345a9c8.svg",
       },
     ],
   },
@@ -93,10 +103,6 @@ export const skills = [
         image:
           "https://w7.pngwing.com/pngs/669/853/png-transparent-security-token-json-web-token-access-token-representational-state-transfer-others-miscellaneous-angle-rectangle-thumbnail.png",
       },
-      {
-        name: "Firebase",
-        image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
-      },
     ],
   },
   {
@@ -113,11 +119,6 @@ export const skills = [
           "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
       },
       {
-        name: "Java (DSA)",
-        image:
-          "https://banner2.cleanpng.com/20181122/krs/kisspng-java-programming-language-selenium-computer-softwa-july-2-16-halab-4-dev-5bf78387a7bb41.028192901542947719687.jpg",
-      },
-      {
         name: "Netlify",
         image:
           "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
@@ -126,6 +127,11 @@ export const skills = [
         name: "VS Code",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
+      },
+      {
+        name: "Rapid API",
+        image:
+          "https://images.crunchbase.com/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/r1otclpsq54uempa8x4v",
       },
       {
         name: "Postman",
@@ -162,7 +168,7 @@ export const experiences = [
     role: "Web Developer Intern",
     company: "TechnoHacks EduTech",
     date: "August 2023",
-    desc: "Working on the backend of the web application using NodeJS, EJS and Bootstrap",
+    desc: "Working on the backend of the web application using NodeJS, EJS and MongoDB",
     skills: [
       "ExpressJs",
       "NodeJs",
@@ -205,7 +211,7 @@ export const education = [
   },
   {
     id: 1,
-    img: "https://scontent.fpat2-1.fna.fbcdn.net/v/t39.30808-6/298456014_442153311265778_7411568035526709692_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=0tGd4jm5WjsAX8PQ0_Y&_nc_ht=scontent.fpat2-1.fna&oh=00_AfBapyEA7SH1TFco-iUAiuM60wH-yI3VVvGBfrPUnMB2mg&oe=653511CD",
+    img: "https://www.jlcollegehajipur.ac.in/wp-content/uploads/2021/05/about-college.jpg",
     school: "Jamuni Lal College, Hajipur (BSEB, Patna)",
     date: "2018 - 2020",
     grade: "60.4%",
@@ -225,74 +231,20 @@ export const education = [
 
 export const projects = [
   {
-    id: 12,
-    title: "To-Do App React",
-    date: "Oct 2023",
-    description:
-      "This is a simple Todo List application built using React. It allows users to add, edit, and delete tasks, mark tasks as completed, and filter tasks based on their completion status etc.",
-    image:
-      "https://user-images.githubusercontent.com/105916377/276518122-361bcd30-a11d-4739-9e98-33992779ab87.png",
-    tags: ["React Js", "CSS", "API"],
-    category: "react",
-    github:
-      "https://github.com/masoom2313189/React-Assignment/tree/main/Skill%20Test/Todo-List-React",
-    webapp: "https://loquacious-bubblegum-77ecef.netlify.app/",
-  },
-  {
-    id: 11,
-    title: "Habit Tracker React App",
-    date: "Oct 2023",
-    description:
-      "A habit tracker app project in which user can add habit and track all the previous six days status.",
-    image:
-      "https://user-images.githubusercontent.com/105916377/276531021-a4befb8a-d1f5-41d0-ac16-97d90638d600.png",
-    tags: ["React Js", "Redux", "CSS"],
-    category: "react",
-    github:
-      "https://github.com/masoom2313189/React-Assignment/tree/main/Skill%20Test/habit-tracker-react",
-    webapp: "https://exquisite-pie-14a40c.netlify.app/",
-  },
-  {
-    id: 10,
-    title: "Weather App",
-    date: "Oct 2023",
-    description:
-      "A Weather app project in which user can check weather, temperature, humidity & wind speed all over the world",
-    image:
-      "https://user-images.githubusercontent.com/105916377/276646862-c4956dc3-42e6-4d74-b589-f64948e72de0.png",
-    tags: ["React Js", "CSS"],
-    category: "react",
-    github: "https://github.com/masoom2313189/Weather-App",
-    webapp: "https://weather-app-magic.netlify.app/",
-  },
-  {
-    id: 9,
-    title: "Get My Location",
-    date: "Sep 2023",
-    description:
-      "Get My Location app project in which user can get your current location.",
-    image:
-      "https://user-images.githubusercontent.com/105916377/276533246-34db7a6f-092a-4c38-bd17-955319a9fda4.png",
-    tags: ["HTML", "CSS", "JavaScript"],
-    category: "frontend",
-    github: "https://github.com/masoom2313189/GetMyLocation",
-    webapp: "https://magical-donut-a69c75.netlify.app/",
-  },
-  {
-    id: 8,
-    title: "Flipkart Clone",
-    date: "Aug 2023",
-    description:
-      "Flipkart Private Limited is an Indian e-commerce company, headquartered in Bangalore, and incorporated in Singapore as a private limited company.",
-    image:
-      "https://user-images.githubusercontent.com/105916377/276643735-57f525b7-6b65-4a72-ba67-a9d6a1c4d53e.png",
-    tags: ["React Js", "SCSS", "Swiper Js", "Material UI"],
-    category: "react",
-    github: "https://github.com/masoom2313189/Flipkart-Clone",
-    webapp: "https://flipkart-react-clone.netlify.app/",
-  },
-  {
     id: 7,
+    title: "Travel App",
+    date: "Oct 2023",
+    description:
+      "We can help you on an adventure around the world in just one app.",
+    image:
+      "https://user-images.githubusercontent.com/105916377/278817242-3d3cdd3c-5905-44ba-9e44-7d46b35c5a45.png",
+    tags: ["Next Js", "TypeScript", "Tailwind", "HTML", "CSS", "JavaScript"],
+    category: "frontend",
+    github: "https://github.com/masoom2313189/travel-app",
+    webapp: "https://travel-app-champing.netlify.app/",
+  },
+  {
+    id: 6,
     title: "Placement Cell",
     date: "Aug 2023",
     description:
@@ -305,7 +257,7 @@ export const projects = [
     webapp: "https://placement-cell-51y4.onrender.com/users/signin",
   },
   {
-    id: 6,
+    id: 5,
     title: "Employee Review System",
     date: "Aug 2023",
     description:
@@ -318,7 +270,7 @@ export const projects = [
     webapp: "https://employee-review-zap9.onrender.com/employee/signin",
   },
   {
-    id: 5,
+    id: 4,
     title: "Ecommerce API",
     date: "Aug 2023",
     description:
@@ -331,20 +283,6 @@ export const projects = [
     webapp: "https://ecommerce-api-5bbt.onrender.com/",
   },
   {
-    id: 4,
-    title: "Veterinary",
-    date: "May 2023",
-    description:
-      "Our first veterinary website provides a stellar example of proper brand color usage and easy access to information.",
-    image:
-      "https://user-images.githubusercontent.com/105916377/276623444-5e12eedd-4c79-40c2-8d18-5e77e41c2c42.png",
-    tags: ["HTML", "CSS", "Bootstrap"],
-    category: "frontend",
-    github: "https://github.com/masoom2313189/Veterinary",
-    webapp: "https://loveveterinary.netlify.app/",
-  },
-
-  {
     id: 3,
     title: "Sephora Clone",
     date: "Sep 2022",
@@ -352,10 +290,10 @@ export const projects = [
       "An e-commerce website that sells beauty, wellness, and fashion products across websites. Online Shopping Site for Designer Clothes, Accessories & Lifestyle Products.",
     image:
       "https://user-images.githubusercontent.com/105916377/276620784-7c8fcfbd-dcfa-42e7-9d0a-fd07545aa12a.png",
-    tags: ["React Js", "Chakra UI", "Swiper Js"],
-    category: "react",
+    tags: ["React Js", "Chakra UI", "HTML", "CSS", "JavaScript", "Swiper Js"],
+    category: "frontend",
     github: "https://github.com/masoom2313189/-messy-home-6295",
-    webapp: "https://ecommerce-api-5bbt.onrender.com/",
+    webapp: "https://sephora-nnnow.netlify.app/",
   },
 
   {

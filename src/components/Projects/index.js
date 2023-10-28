@@ -33,26 +33,13 @@ const Projects = ({ openModal, setOpenModal }) => {
               All
             </ToggleButton>
           )}
-          <Divider />
-          {toggle === "react" ? (
-            <ToggleButton
-              active
-              value="react"
-              onClick={() => setToggle("react")}
-            >
-              React Js
-            </ToggleButton>
-          ) : (
-            <ToggleButton value="react" onClick={() => setToggle("react")}>
-              React Js
-            </ToggleButton>
-          )}
+
           <Divider />
           {toggle === "frontend" ? (
             <ToggleButton
               active
               value="frontend"
-              onClick={() => setToggle("android app")}
+              onClick={() => setToggle("frontend")}
             >
               Frontend
             </ToggleButton>
@@ -76,6 +63,23 @@ const Projects = ({ openModal, setOpenModal }) => {
           ) : (
             <ToggleButton value="backend" onClick={() => setToggle("backend")}>
               Backend
+            </ToggleButton>
+          )}
+          <Divider />
+          {toggle === "full_stack" ? (
+            <ToggleButton
+              active
+              value="full_stack"
+              onClick={() => setToggle("full_stack")}
+            >
+              Full Stack
+            </ToggleButton>
+          ) : (
+            <ToggleButton
+              value="full_stack"
+              onClick={() => setToggle("full_stack")}
+            >
+              Full Stack
             </ToggleButton>
           )}
         </ToggleButtonGroup>

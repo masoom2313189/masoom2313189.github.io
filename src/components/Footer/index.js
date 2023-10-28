@@ -109,7 +109,7 @@ function Footer() {
             <GitHubIcon />
           </SocialMediaIcon>
         </SocialMediaIcons>
-        <Copyright>&copy; 2023 Masoom Rizvi. All rights reserved.</Copyright>
+        <Copyright>&copy; 2023 Masoom Rizvi | All rights reserved.</Copyright>
       </FooterWrapper>
     </FooterContainer>
   );
