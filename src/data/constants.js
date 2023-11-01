@@ -231,6 +231,26 @@ export const education = [
 
 export const projects = [
   {
+    id: 8,
+    title: "Hotstar Clone",
+    date: "Oct 2023",
+    description:
+      "User can see movies & tv shown in details after login with mobile number user can watch the trailer also search your favrouite movies & tv show here. ",
+    image: "https://github.com/masoom2313189/hotstar-clone/raw/main/image.png",
+    tags: [
+      "React Js",
+      "TypeScript",
+      "Tailwind",
+      "Firebase",
+      "HTML",
+      "CSS",
+      "JavaScript",
+    ],
+    category: "full_stack",
+    github: "https://github.com/masoom2313189/hotstar-clone",
+    webapp: "https://hotstar-clone-c56cd.web.app/",
+  },
+  {
     id: 7,
     title: "Travel App",
     date: "Oct 2023",
