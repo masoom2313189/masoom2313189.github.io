@@ -27,6 +27,21 @@ export const skills = [
           "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
       },
       {
+        name: "JavaScript",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+      },
+      {
+        name: "TypeScript",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/512px-Typescript_logo_2020.svg.png?20221110153201",
+      },
+      {
+        name: "Tailwind",
+        image:
+          "https://tailwindcss.com/_next/static/media/tailwindcss-mark.3c5441fc7a190fb1800d4a5c7f07ba4b1345a9c8.svg",
+      },
+      {
         name: "Redux",
         image:
           "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
@@ -43,18 +58,9 @@ export const skills = [
       {
         name: "CSS",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/2048px-CSS3_logo.svg.png",
       },
-      {
-        name: "JavaScript",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
-      },
-      {
-        name: "TypeScript",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/512px-Typescript_logo_2020.svg.png?20221110153201",
-      },
+
       {
         name: "Bootstrap",
         image:
@@ -64,11 +70,6 @@ export const skills = [
         name: "Material UI",
         image:
           "https://seeklogo.com/images/M/material-ui-logo-5BDCB9BA8F-seeklogo.com.png",
-      },
-      {
-        name: "Tailwind",
-        image:
-          "https://tailwindcss.com/_next/static/media/tailwindcss-mark.3c5441fc7a190fb1800d4a5c7f07ba4b1345a9c8.svg",
       },
     ],
   },
@@ -202,7 +203,7 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Rn_college_hajipur.jpeg/450px-Rn_college_hajipur.jpeg",
+    img: "https://play-lh.googleusercontent.com/kZOvDDG5iSnkCt8nAnQG3JKLNRGLLcy81WQ4t0lbfGPx2PB-IpAl4rD7aQmGg0SPDw",
     school: "Raj Narain College, Hajipur (BRABU, Muzaffarpur)",
     date: "Aug 2020 - Dec 2023",
     grade: "68.3%",
@@ -211,7 +212,7 @@ export const education = [
   },
   {
     id: 1,
-    img: "https://www.jlcollegehajipur.ac.in/wp-content/uploads/2021/05/about-college.jpg",
+    img: "https://pbs.twimg.com/profile_images/1645719908247031808/GQDKrxnF_400x400.jpg",
     school: "Jamuni Lal College, Hajipur (BSEB, Patna)",
     date: "2018 - 2020",
     grade: "60.4%",
@@ -220,7 +221,7 @@ export const education = [
   },
   {
     id: 2,
-    img: "https://live.staticflickr.com/3714/10206734665_7d718592d1_b.jpg",
+    img: "https://pbs.twimg.com/profile_images/1645719908247031808/GQDKrxnF_400x400.jpg",
     school: "Sahyogi Higher Sec. School, Hajipur (BSEB, Patna)",
     date: "2018",
     grade: "56%",
@@ -231,12 +232,26 @@ export const education = [
 
 export const projects = [
   {
+    id: 9,
+    title: "Fitness Exercises App",
+    date: "Nov 2023",
+    description:
+      "User can see exercises and theri steps and also search exercises & watch the relerated videos on the Youtube. ",
+    image:
+      "https://user-images.githubusercontent.com/105916377/282224319-c600dd49-f300-42f7-9162-1d59912e9b4b.png",
+    tags: ["React Js", "JavaScript", "Tailwind", "API", "HTML", "CSS"],
+    category: "frontend",
+    github: "https://github.com/masoom2313189/fitness-exercises-app",
+    webapp: "https://fitness-exercises-gym-app.netlify.app/",
+  },
+  {
     id: 8,
     title: "Hotstar Clone",
     date: "Oct 2023",
     description:
       "User can see movies & tv shown in details after login with mobile number user can watch the trailer also search your favrouite movies & tv show here. ",
-    image: "https://github.com/masoom2313189/hotstar-clone/raw/main/image.png",
+    image:
+      "https://user-images.githubusercontent.com/105916377/282225042-95176547-ad51-47f9-8393-4ddd46ce5b1a.png",
     tags: [
       "React Js",
       "TypeScript",
