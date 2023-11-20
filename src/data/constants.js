@@ -156,47 +156,12 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://play-lh.googleusercontent.com/3XRll3qMtcCa3jxoXFqZ1KHaJj8OsPYiGYZ1MvUBd5DxsYNceKuGi40XuH3ZeCWCTQ",
-    role: "Computer Operator",
-    company: "Baba Projects Pvt. Ltd.",
-    date: "August 2023 - Present",
-    desc: "Working on ERP & Excel",
-    skills: ["ERP", "MS Excel", "MS Word", "Photoshop"],
-  },
-  {
-    id: 1,
-    img: "https://media.licdn.com/dms/image/C560BAQHbRc4KalclmA/company-logo_200_200/0/1676715857373?e=2147483647&v=beta&t=41Nxh22CcFnMZJn9cNS9zqlwqI2o4n8RvQyDJyr6yGo",
-    role: "Web Developer Intern",
-    company: "TechnoHacks EduTech",
-    date: "August 2023",
-    desc: "Working on the backend of the web application using NodeJS, EJS and MongoDB",
-    skills: [
-      "ExpressJs",
-      "NodeJs",
-      "MongoDB",
-      "Bootstrap",
-      "EJS",
-      "CSS",
-      "JavaScript",
-    ],
-  },
-  {
-    id: 2,
-    img: "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1200,h=630,fit=crop,f=jpeg/Aq20eV79zLfpXV6b/1685789339697-YrDL60zzRBfzM6Wr.jpg",
-    role: "Web Developer Intern",
-    company: "CodSoft",
-    date: "September 2023",
-    desc: "Working on the frontend of the web application using ReactJS and Material UI",
-    skills: ["ReactJS", "Material UI", "HTML", "CSS", "JavaScript"],
-  },
-  {
-    id: 3,
-    img: "https://lh5.googleusercontent.com/p/AF1QipP7Rar14YTwWVa71t8r0FMDtXD3iggXVP-yKpMG=w141-h101-n-k-no-nu",
-    role: "Computer Operator",
-    company: "Chevrox Construction Pvt. Ltd.",
-    date: "March 2022 - April 2023",
-    desc: "Working on Excel",
-    skills: ["MS Excel", "MS Word", "Photoshop"],
+    img: "https://files.codingninjas.in/0000000000000723.jpg",
+    role: "Teaching Assistant",
+    company: "Coding Ninjas",
+    date: "Nov 2023 - Present",
+    desc: "Assist students in resolving their curriculum-related doubts & Code Debugging.",
+    skills: ["React", "Redux", "JavaScript", "HTML", "CSS"],
   },
 ];
 
@@ -236,7 +201,7 @@ export const projects = [
     title: "Fitness Exercises App",
     date: "Nov 2023",
     description:
-      "User can see exercises and theri steps and also search exercises & watch the relerated videos on the Youtube. ",
+      "User can see exercises and their steps and also search exercises & watch the related videos on the Youtube. ",
     image:
       "https://user-images.githubusercontent.com/105916377/282224319-c600dd49-f300-42f7-9162-1d59912e9b4b.png",
     tags: ["React Js", "JavaScript", "Tailwind", "API", "HTML", "CSS"],
