@@ -203,8 +203,8 @@ export const projects = [
     description:
       "Density is a cryptocurrency derivatives exchange that offers a broad variety of investment vehicles to individuals and institutions - from futures, leveraged tokens, synthetic tokens, token baskets. ",
     image:
-      "https://private-user-images.githubusercontent.com/105916377/285834237-6ea8b663-c3f9-4df7-9fbc-3946c9dee344.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDEwODI0MDcsIm5iZiI6MTcwMTA4MjEwNywicGF0aCI6Ii8xMDU5MTYzNzcvMjg1ODM0MjM3LTZlYThiNjYzLWMzZjktNGRmNy05ZmJjLTM5NDZjOWRlZTM0NC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMxMTI3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMTEyN1QxMDQ4MjdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT04Mzc0NGZjNDIwZmYxMTNhNzIyNDg4MDQxNzc4MThmOWUzYzA0MDJhN2NhMzQxZTkyODM2NDZiOWYzZWI3ZmFkJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.qU37ke1xnDIK-bcyam5X4gOQU1sWufVD_T8cTltzk7Q",
-    tags: ["React Js", "JavaScript", "Tailwind", "HTML", "CSS"],
+      "https://user-images.githubusercontent.com/105916377/285834237-6ea8b663-c3f9-4df7-9fbc-3946c9dee344.png",
+    tags: ["Gatsby", "React Js", "JavaScript", "Tailwind", "HTML", "CSS"],
     category: "frontend",
     github: "https://github.com/masoom2313189/density-clone",
     webapp: "https://density-clone.vercel.app/",
