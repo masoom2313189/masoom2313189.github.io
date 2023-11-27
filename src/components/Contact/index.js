@@ -174,7 +174,11 @@ const Contact = () => {
             rows="4"
             name="message"
           />
-          <ContactButton type="submit" value="Send" />
+          <ContactButton
+            type="submit"
+            style={{ cursor: "pointer" }}
+            value="Send"
+          />
         </ContactForm>
         <Snackbar
           open={open}
