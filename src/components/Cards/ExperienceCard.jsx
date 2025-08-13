@@ -143,7 +143,9 @@ const ExperienceCard = ({ experience }) => {
   return (
     <Card>
       <Top>
-        <Image src={experience.img} />
+        <a target="_blank" href={experience.exp}>
+          <Image src={experience.img} />
+        </a>
         <Body>
           <Role>{experience.role}</Role>
           <Company>{experience.company}</Company>

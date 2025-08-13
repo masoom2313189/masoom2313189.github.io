@@ -1,16 +1,11 @@
 export const Bio = {
   name: "Masoom Rizvi",
-  roles: [
-    "Full Stack Developer",
-    "MERN Developer",
-    "Software Developer",
-    "Software Engineer",
-  ],
+  roles: ["Assistant Accountant", "Frontend Developer"],
   description:
-    "I have learned Full Stack Web Development in Coding Ninjas. Skilled in problem- solving and execution of software tasks from start to finish. I look forward to joining a company where I can contribute to individual and company growth...",
+    "Results-driven Assistant Accountant & Computer Operator with 1.5+ years of experience streamlining office operations, managing financial data, and enhancing process efficiency. Proficient in Microsoft Word, Microsoft Excel, and ERP systems for accurate documentation, data analysis, inventory tracking, and business process optimization. Recognized for attention to detail, speed, and delivering high-quality results in fast-paced environments...",
   github: "https://github.com/masoom2313189",
   resume:
-    "https://drive.google.com/file/d/1M-Fo4p4T2C8NoXQZaikOkEPMz1Ym9FjF/view?usp=sharing",
+    "https://drive.google.com/file/d/1OW34X7Qz7IPY_w7zqASVSYgzLFVyJ6Nb/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/masoom2313189/",
   phone: "tel:+916205410891",
   email: "mailto:masoom2313189@gmail.com",
@@ -18,6 +13,46 @@ export const Bio = {
 };
 
 export const skills = [
+  {
+    title: "Accounting",
+    skills: [
+      {
+        name: "Excel",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg/2203px-Microsoft_Office_Excel_%282019%E2%80%93present%29.svg.png",
+      },
+      {
+        name: "Word",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Microsoft_Office_Word_%282019%E2%80%93present%29.svg/1200px-Microsoft_Office_Word_%282019%E2%80%93present%29.svg.png",
+      },
+      {
+        name: "ERP",
+        image:
+          "https://media.licdn.com/dms/image/v2/D560BAQG8UiJG4KYHBg/company-logo_200_200/B56ZiXsCZ2HkAI-/0/1754891561223/nwayerpsoftware_logo?e=2147483647&v=beta&t=bNnFGyRKYZ6_iExIqjkoksU2RJSkUac5VYeZ1eLH3Sw",
+      },
+      {
+        name: "Microsoft Office",
+        image:
+          "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STKB334_MICROSOFT_OFFICE_A.jpg?quality=90&strip=all&crop=16.666666666667,0,66.666666666667,100",
+      },
+      {
+        name: "Adobe Photoshop",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/1051px-Adobe_Photoshop_CC_icon.svg.png",
+      },
+      {
+        name: "Baisc AutoCad",
+        image:
+          "https://saasyto.com/wp-content/uploads/2024/08/Autodesk-AutoCAD-subscription-1.jpg",
+      },
+      {
+        name: "Internet Applications",
+        image:
+          "https://www.pngplay.com/wp-content/uploads/6/Web-Internet-Application-Transparent-PNG.png",
+      },
+    ],
+  },
   {
     title: "Frontend",
     skills: [
@@ -39,7 +74,7 @@ export const skills = [
       {
         name: "Tailwind",
         image:
-          "https://tailwindcss.com/_next/static/media/tailwindcss-mark.3c5441fc7a190fb1800d4a5c7f07ba4b1345a9c8.svg",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVgHWDyjwN9qZsPChFzc5PRfOOOqbfgXqR3w&s",
       },
       {
         name: "Redux",
@@ -73,95 +108,36 @@ export const skills = [
       },
     ],
   },
-  {
-    title: "Backend",
-    skills: [
-      {
-        name: "Node Js",
-        image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_0Uu824N-jZhYSbpzi1YIoS-3cNkRhbkBPw&usqp=CAU",
-      },
-      {
-        name: "Express Js",
-        image:
-          "https://w7.pngwing.com/pngs/925/447/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo.png",
-      },
-      {
-        name: "Rest API",
-        image: "https://apps.odoo.com/apps/icon_image?module_id=37657",
-      },
-      {
-        name: "MongoDB",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
-      },
-      {
-        name: "Firebase",
-        image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
-      },
-      {
-        name: "JWT",
-        image:
-          "https://w7.pngwing.com/pngs/669/853/png-transparent-security-token-json-web-token-access-token-representational-state-transfer-others-miscellaneous-angle-rectangle-thumbnail.png",
-      },
-    ],
-  },
-  {
-    title: "Others",
-    skills: [
-      {
-        name: "Git",
-        image:
-          "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
-      },
-      {
-        name: "GitHub",
-        image:
-          "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
-      },
-      {
-        name: "Netlify",
-        image:
-          "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
-      },
-      {
-        name: "VS Code",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
-      },
-      {
-        name: "Rapid API",
-        image:
-          "https://images.crunchbase.com/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/r1otclpsq54uempa8x4v",
-      },
-      {
-        name: "Postman",
-        image:
-          "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
-      },
-      {
-        name: "ERP",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/f/f6/ERP_LOGO_URL.png",
-      },
-      {
-        name: "Excel",
-        image:
-          "https://static.vecteezy.com/system/resources/previews/019/167/096/original/excel-free-download-free-png.png",
-      },
-    ],
-  },
 ];
 
 export const experiences = [
   {
     id: 0,
-    img: "https://files.codingninjas.in/0000000000000723.jpg",
+    img: "https://media.licdn.com/dms/image/v2/D4E0BAQGuoB7LYH86Dw/company-logo_200_200/company-logo_200_200/0/1723566248279/baba_projects_private_limited_logo?e=2147483647&v=beta&t=gpQHF3CuAW_W6qT_spJm7HbfwKIXRU8w7eNOQqHitwI",
+    role: "Assistant Accountant",
+    company: "Baba Projects Private Limited | DMRC S&T Project, Delhi",
+    date: "Nov 2024 - Present",
+    desc: "Carefully and accurately performed a variety of accounting, bookkeeping, and office tasks, supporting the team with day-to-day accounting operations. Checked and updated spreadsheets for accuracy, worked efficiently with Enterprise Resource Planning (ERP) and Excel accounting software, and assisted with weekly accounts payable processes. Researched, monitored, and resolved accounting or documentation discrepancies, while entering key financial transaction data into ERP systems to maintain accurate and up-to-date records.",
+    // skills: ["React", "Redux", "JavaScript", "HTML", "CSS"],
+  },
+  {
+    id: 1,
+    img: "https://media.licdn.com/dms/image/v2/D4E0BAQGuoB7LYH86Dw/company-logo_200_200/company-logo_200_200/0/1723566248279/baba_projects_private_limited_logo?e=2147483647&v=beta&t=gpQHF3CuAW_W6qT_spJm7HbfwKIXRU8w7eNOQqHitwI",
+    role: "Computer Operator",
+    company: "Baba Projects Private Limited | Railway Telecom Project, Gwalior",
+    date: "Feb 2024 - Oct 2024",
+    desc: "Performed all data processing duties accurately and on time, working efficiently with Enterprise Resource Planning (ERP) and Excel accounting software. Utilized multiple operating systems to create and maintain user accounts, prepared clear and reader-friendly reports, and resolved user issues by responding promptly to questions and requests.",
+    // skills: ["React", "Redux", "JavaScript", "HTML", "CSS"],
+  },
+  {
+    id: 2,
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4xnKMpHtlo5h0Ujfhk0evGTmGbcOeROhDOA&s",
     role: "Teaching Assistant",
-    company: "Coding Ninjas",
-    date: "Oct 2023 - Present",
-    desc: "Assist students in resolving their curriculum-related doubts & Code Debugging.",
-    skills: ["React", "Redux", "JavaScript", "HTML", "CSS"],
+    company: "Coding Ninjas | Remote",
+    date: "Oct 2023 - Jan 2024",
+    desc: "Assisted students in learning and mastering React, Redux, JavaScript, HTML, and CSS by resolving curriculum-related doubts, providing code debugging support, and explaining concepts through clear and practical examples.",
+    // skills: ["React", "Redux", "JavaScript", "HTML", "CSS"],
+    exp: "https://drive.google.com/file/d/1b5_x4VptGjQOc3GAIwzJLT_7tDD-aNOO/view?usp=sharing",
   },
 ];
 
@@ -170,8 +146,8 @@ export const education = [
     id: 0,
     img: "https://play-lh.googleusercontent.com/kZOvDDG5iSnkCt8nAnQG3JKLNRGLLcy81WQ4t0lbfGPx2PB-IpAl4rD7aQmGg0SPDw",
     school: "Raj Narain College, Hajipur (BRABU, Muzaffarpur)",
-    date: "Aug 2020 - Dec 2023",
-    grade: "68.3%",
+    date: "Completed in 2023",
+    grade: "69.9%",
     desc: "I am currently pursuing a Bachelor's degree in Computer Science at R. N. College, Hajipur. I have completed 4 semesters.",
     degree: "Bachelor of Computer Applications (BCA)",
   },
@@ -179,19 +155,19 @@ export const education = [
     id: 1,
     img: "https://pbs.twimg.com/profile_images/1645719908247031808/GQDKrxnF_400x400.jpg",
     school: "Jamuni Lal College, Hajipur (BSEB, Patna)",
-    date: "2018 - 2020",
+    date: "Completed in 2020",
     grade: "60.4%",
     desc: "I completed my class 12 high school education at Jamuni Lal College, Hajipur, where I studied Science.",
-    degree: "Intermediate(XII), Science",
+    degree: "Intermediate (Science)",
   },
   {
     id: 2,
     img: "https://pbs.twimg.com/profile_images/1645719908247031808/GQDKrxnF_400x400.jpg",
     school: "Sahyogi Higher Sec. School, Hajipur (BSEB, Patna)",
-    date: "2018",
+    date: "Completed in 2018",
     grade: "56%",
     desc: "I completed my class 10 education at Sahyogi Higher Secondary School, Hajipur, where I studied Science & Social Science.",
-    degree: "Matriculation(X), Science & Social Science",
+    degree: "Matriculation",
   },
 ];
 
@@ -334,7 +310,7 @@ export const projects = [
       },
       {
         name: "Anil Patade",
-        img: "https://media.licdn.com/dms/image/C4E03AQG96Hv3KyYW9g/profile-displayphoto-shrink_400_400/0/1643271124027?e=1703116800&v=beta&t=UZbwqMym2lnT1jZ4cOUL5WRYYwwBIc6mGeWDtNOLjhM",
+        img: "https://media.licdn.com/dms/image/v2/C4E03AQG96Hv3KyYW9g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1643271129848?e=1758153600&v=beta&t=bIg9txDuXAcd8cPI-KLSkG6gwYzgNadloVZb_F4R9jU",
         linkedin: "https://www.linkedin.com/in/anil-patade-b4a61a22b/",
         github: "https://github.com/anilpatade",
       },
@@ -418,7 +394,7 @@ export const projects = [
       },
       {
         name: "Prashant Mulukh",
-        img: "https://media.licdn.com/dms/image/C4D03AQF2d2Qe2KUSkw/profile-displayphoto-shrink_400_400/0/1656160942032?e=1703116800&v=beta&t=gTU1RgNdC42orvh_qvzvgi-4E07aLfuOzBKRNzC6rhI",
+        img: "https://media.licdn.com/dms/image/v2/C4D03AQF2d2Qe2KUSkw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1656160942481?e=1758153600&v=beta&t=ZllZHyOWwdk6RpicKz-G_zdRre0hVvG82_obzdBW2p8",
         linkedin: "https://www.linkedin.com/in/prashant-mulukh/",
         github: "https://github.com/prashant7039",
       },
