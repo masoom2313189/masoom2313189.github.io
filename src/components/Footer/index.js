@@ -92,8 +92,8 @@ function Footer() {
           <NavLink href="#about">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
           <NavLink href="#experience">Experience</NavLink>
-          <NavLink href="#projects">Projects</NavLink>
           <NavLink href="#education">Education</NavLink>
+          <NavLink href="#projects">Projects</NavLink>
         </Nav>
         <SocialMediaIcons>
           <SocialMediaIcon href={Bio.linkedin} target="display">
@@ -109,7 +109,7 @@ function Footer() {
             <GitHubIcon />
           </SocialMediaIcon>
         </SocialMediaIcons>
-        <Copyright>&copy; 2023 Masoom Rizvi | All rights reserved.</Copyright>
+        <Copyright>&copy; 2025 Masoom Rizvi | All rights reserved.</Copyright>
       </FooterWrapper>
     </FooterContainer>
   );
