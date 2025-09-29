@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.bf538fe7.css",
-    "main.js": "/static/js/main.a72a6f28.js",
+    "main.js": "/static/js/main.d67b334b.js",
     "static/media/Masoom.png": "/static/media/Masoom.5ad7bd6399084f83d7e3.png",
     "index.html": "/index.html",
     "main.bf538fe7.css.map": "/static/css/main.bf538fe7.css.map",
-    "main.a72a6f28.js.map": "/static/js/main.a72a6f28.js.map"
+    "main.d67b334b.js.map": "/static/js/main.d67b334b.js.map"
   },
   "entrypoints": [
     "static/css/main.bf538fe7.css",
-    "static/js/main.a72a6f28.js"
+    "static/js/main.d67b334b.js"
   ]
 }
