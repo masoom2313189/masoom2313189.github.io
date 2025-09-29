@@ -1,6 +1,11 @@
 export const Bio = {
   name: "Masoom Rizvi",
-  roles: ["Assistant Accountant", "Frontend Developer"],
+  roles: [
+    "Assistant Accountant",
+    "Accounts Executive",
+    "Frontend Developer",
+    "Audit Assistant",
+  ],
   description:
     "Results-driven Assistant Accountant & Computer Operator with 1.5+ years of experience streamlining office operations, managing financial data, and enhancing process efficiency. Proficient in Microsoft Word, Microsoft Excel, and ERP systems for accurate documentation, data analysis, inventory tracking, and business process optimization. Recognized for attention to detail, speed, and delivering high-quality results in fast-paced environments...",
   github: "https://github.com/masoom2313189",
@@ -147,8 +152,10 @@ export const education = [
     img: "https://play-lh.googleusercontent.com/kZOvDDG5iSnkCt8nAnQG3JKLNRGLLcy81WQ4t0lbfGPx2PB-IpAl4rD7aQmGg0SPDw",
     school: "Raj Narain College, Hajipur (BRABU, Muzaffarpur)",
     date: "Completed in 2023",
-    grade: "69.9%",
-    desc: "I am currently pursuing a Bachelor's degree in Computer Science at R. N. College, Hajipur. I have completed 4 semesters.",
+    percentage: "69.9%",
+    desc: `I have successfully completed my Bachelor's degree in Computer Science from R. N. College, Hajipur.
+          Along with core subjects like programming, databases, and computer systems, my coursework also included Accounting and Business Management, which enhanced my understanding of financial processes.
+          This combination of technical knowledge and accounting concepts has equipped me to work efficiently in roles that require both analytical and financial skills, such as my current position as an Assistant Accountant.`,
     degree: "Bachelor of Computer Applications (BCA)",
   },
   {
@@ -156,8 +163,9 @@ export const education = [
     img: "https://pbs.twimg.com/profile_images/1645719908247031808/GQDKrxnF_400x400.jpg",
     school: "Jamuni Lal College, Hajipur (BSEB, Patna)",
     date: "Completed in 2020",
-    grade: "60.4%",
-    desc: "I completed my class 12 high school education at Jamuni Lal College, Hajipur, where I studied Science.",
+    percentage: "60.4%",
+    desc: `I completed my Class 12 education in the Science stream at Jamuni Lal College, Hajipur.
+My studies included core subjects such as Physics, Chemistry, and Mathematics, which helped me build a strong foundation in analytical thinking and problem-solving.`,
     degree: "Intermediate (Science)",
   },
   {
@@ -165,8 +173,9 @@ export const education = [
     img: "https://pbs.twimg.com/profile_images/1645719908247031808/GQDKrxnF_400x400.jpg",
     school: "Sahyogi Higher Sec. School, Hajipur (BSEB, Patna)",
     date: "Completed in 2018",
-    grade: "56%",
-    desc: "I completed my class 10 education at Sahyogi Higher Secondary School, Hajipur, where I studied Science & Social Science.",
+    percentage: "56%",
+    desc: `I completed my Class 10 education at Sahyogi Higher Secondary School, Hajipur, with a focus on Science and Social Science.
+This provided me with a balanced foundation in both analytical and theoretical subjects, which helped strengthen my academic skills for higher studies.`,
     degree: "Matriculation",
   },
 ];

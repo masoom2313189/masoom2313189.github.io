@@ -77,8 +77,10 @@ const index = () => {
       <Wrapper>
         <Title>Experience</Title>
         <Desc>
-          My work experience as a software engineer and computer operator
-          working on different companies and projects.
+          Gained experience as an Assistant Accountant and Computer Operator,
+          handling accounts, financial records, data management, and system
+          operations, while building strong technical and problem-solving
+          skills.
         </Desc>
         <TimelineSection>
           <Timeline>

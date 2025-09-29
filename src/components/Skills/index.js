@@ -121,7 +121,11 @@ const Skills = () => {
     <Container id="skills">
       <Wrapper>
         <Title>Skills</Title>
-        <Desc>Skills Developed Over the Past 2 Years</Desc>
+        <Desc>
+          Skills Developed Over the Past 2 Years: Accounting, Financial
+          Reporting, Tally ERP, MS Excel, Data Management, Problem-Solving,
+          Analytical Thinking, Communication.
+        </Desc>
         <SkillsContainer>
           {skills.map((skill) => (
             <Skill>
