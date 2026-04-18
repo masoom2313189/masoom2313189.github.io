@@ -8,11 +8,9 @@ https://masoom2313189.github.io/
 
 # Preview
 
-# <<<<<<< HEAD
+# <<<< HEAD >>>>
 
-![image]![alt text](image.png)
-
-> > > > > > > cdd26d74f0d35c926ba725117bfcae92e27dfc92
+![alt text](image.png)
 
 ## Features
 
