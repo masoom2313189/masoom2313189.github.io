@@ -1,14 +1,8 @@
 export const Bio = {
   name: "Masoom Rizvi",
-  roles: [
-    "Assistant Accountant",
-    "Accounts Executive",
-    "Frontend Developer",
-    "Audit Assistant",
-  ],
+  roles: ["Accountant", "Accounts Executive", "Frontend Developer"],
   description:
-    "Results-driven Assistant Accountant & Computer Operator with 1.5+ years of experience streamlining office operations, managing financial data, and enhancing process efficiency. Proficient in Microsoft Word, Microsoft Excel, and ERP systems for accurate documentation, data analysis, inventory tracking, and business process optimization. Recognized for attention to detail, speed, and delivering high-quality results in fast-paced environments...",
-  github: "https://github.com/masoom2313189",
+    "Results-driven Accountant & Computer Operator with 2+ years of experience streamlining office operations, managing financial data, and enhancing process efficiency. Proficient in Microsoft Word, Microsoft Excel, and ERP systems for accurate documentation, data analysis, inventory tracking, and business process optimization. Recognized for attention to detail, speed, and delivering high-quality results in fast-paced environments...",
   resume:
     "https://drive.google.com/file/d/1OW34X7Qz7IPY_w7zqASVSYgzLFVyJ6Nb/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/masoom2313189/",
@@ -24,12 +18,12 @@ export const skills = [
       {
         name: "Excel",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg/2203px-Microsoft_Office_Excel_%282019%E2%80%93present%29.svg.png",
+          "https://upload.wikimedia.org/wikipedia/commons/6/60/Microsoft_Office_Excel_%282025%E2%80%93present%29.svg",
       },
       {
         name: "Word",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Microsoft_Office_Word_%282019%E2%80%93present%29.svg/1200px-Microsoft_Office_Word_%282019%E2%80%93present%29.svg.png",
+          "https://img.utdstc.com/icon/cf4/9fe/cf49fe8da74ccf842fc7be548e08141f7c2e957279a621a18858ef9a349ad4a3:200",
       },
       {
         name: "ERP",
@@ -44,7 +38,7 @@ export const skills = [
       {
         name: "Adobe Photoshop",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/1051px-Adobe_Photoshop_CC_icon.svg.png",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Adobe_Photoshop_CC_2026_icon.svg/1280px-Adobe_Photoshop_CC_2026_icon.svg.png",
       },
       {
         name: "Baisc AutoCad",
@@ -64,17 +58,17 @@ export const skills = [
       {
         name: "React Js",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png",
       },
       {
         name: "JavaScript",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/960px-Unofficial_JavaScript_logo_2.svg.png",
       },
       {
         name: "TypeScript",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/512px-Typescript_logo_2020.svg.png?20221110153201",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Typescript.svg/1280px-Typescript.svg.png",
       },
       {
         name: "Tailwind",
@@ -98,7 +92,7 @@ export const skills = [
       {
         name: "CSS",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/2048px-CSS3_logo.svg.png",
+          "https://upload.wikimedia.org/wikipedia/commons/a/ab/Official_CSS_Logo.svg",
       },
 
       {
@@ -109,7 +103,7 @@ export const skills = [
       {
         name: "Material UI",
         image:
-          "https://seeklogo.com/images/M/material-ui-logo-5BDCB9BA8F-seeklogo.com.png",
+          "https://media.licdn.com/dms/image/v2/C4D0BAQFlZPMNmAzOGw/company-logo_200_200/company-logo_200_200/0/1631744507301/material_ui_logo?e=2147483647&v=beta&t=J3Tub5ybcOEDIwUMESJnTcu3dzrSNKj8grotnC37vkQ",
       },
     ],
   },
@@ -119,11 +113,12 @@ export const experiences = [
   {
     id: 0,
     img: "https://media.licdn.com/dms/image/v2/D4E0BAQGuoB7LYH86Dw/company-logo_200_200/company-logo_200_200/0/1723566248279/baba_projects_private_limited_logo?e=2147483647&v=beta&t=gpQHF3CuAW_W6qT_spJm7HbfwKIXRU8w7eNOQqHitwI",
-    role: "Assistant Accountant",
-    company: "Baba Projects Private Limited | DMRC S&T Project, Delhi",
-    date: "Nov 2024 - Present",
+    role: "Accountant",
+    company: "Baba Projects Private Limited | DMRC i-CBTC S&T Project, Delhi",
+    date: "Nov 2024 - Feb 2026",
     desc: "Carefully and accurately performed a variety of accounting, bookkeeping, and office tasks, supporting the team with day-to-day accounting operations. Checked and updated spreadsheets for accuracy, worked efficiently with Enterprise Resource Planning (ERP) and Excel accounting software, and assisted with weekly accounts payable processes. Researched, monitored, and resolved accounting or documentation discrepancies, while entering key financial transaction data into ERP systems to maintain accurate and up-to-date records.",
     // skills: ["React", "Redux", "JavaScript", "HTML", "CSS"],
+    // exp: "https://drive.google.com/file/d/1hqRPX3fLh8KkiqEDeXT9bT27HFtB0TQI/view?usp=sharing",
   },
   {
     id: 1,
@@ -133,6 +128,7 @@ export const experiences = [
     date: "Feb 2024 - Oct 2024",
     desc: "Performed all data processing duties accurately and on time, working efficiently with Enterprise Resource Planning (ERP) and Excel accounting software. Utilized multiple operating systems to create and maintain user accounts, prepared clear and reader-friendly reports, and resolved user issues by responding promptly to questions and requests.",
     // skills: ["React", "Redux", "JavaScript", "HTML", "CSS"],
+    // exp: "https://drive.google.com/file/d/1hqRPX3fLh8KkiqEDeXT9bT27HFtB0TQI/view?usp=sharing",
   },
   {
     id: 2,
@@ -142,7 +138,7 @@ export const experiences = [
     date: "Oct 2023 - Jan 2024",
     desc: "Assisted students in learning and mastering React, Redux, JavaScript, HTML, and CSS by resolving curriculum-related doubts, providing code debugging support, and explaining concepts through clear and practical examples.",
     // skills: ["React", "Redux", "JavaScript", "HTML", "CSS"],
-    exp: "https://drive.google.com/file/d/1b5_x4VptGjQOc3GAIwzJLT_7tDD-aNOO/view?usp=sharing",
+    // exp: "https://drive.google.com/file/d/1b5_x4VptGjQOc3GAIwzJLT_7tDD-aNOO/view?usp=sharing",
   },
 ];
 

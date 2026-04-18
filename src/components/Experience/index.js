@@ -77,10 +77,9 @@ const index = () => {
       <Wrapper>
         <Title>Experience</Title>
         <Desc>
-          Gained experience as an Assistant Accountant and Computer Operator,
-          handling accounts, financial records, data management, and system
-          operations, while building strong technical and problem-solving
-          skills.
+          Gained experience as an Accountant and Computer Operator, handling
+          accounts, financial records, data management, and system operations,
+          while building strong technical and problem-solving skills.
         </Desc>
         <TimelineSection>
           <Timeline>

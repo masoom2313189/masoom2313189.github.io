@@ -11,8 +11,8 @@ import {
   Title,
   Span,
   SubTitle,
-  SocialMediaIcons,
-  SocialMediaIcon,
+  // SocialMediaIcons,
+  // SocialMediaIcon,
   ResumeButton,
 } from "./HeroStyle";
 import HeroImg from "../../images/Masoom.png";
