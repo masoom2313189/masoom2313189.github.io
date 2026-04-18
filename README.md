@@ -8,7 +8,8 @@ https://masoom2313189.github.io/
 
 # Preview
 
-![image](https://github.com/masoom2313189/masoom2313189.github.io/assets/105916377/a997797d-bc5a-4456-bde4-a54cf4d7b914)
+![image](<img width="1719" height="850" alt="image" src="https://github.com/user-attachments/assets/789d7ce6-8c25-4bca-94c3-5a2d4e22ec01" />)
+
 
 ## Features
 
