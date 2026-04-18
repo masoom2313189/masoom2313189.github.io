@@ -8,7 +8,7 @@ https://masoom2313189.github.io/
 
 # Preview
 
-![image](https://github.com/masoom2313189/masoom2313189.github.io/assets/105916377/a997797d-bc5a-4456-bde4-a54cf4d7b914)
+![image](![alt text](image.png))
 
 ## Features
 
@@ -19,6 +19,6 @@ https://masoom2313189.github.io/
 - Contact: A form to send me messages or inquiries.
   <!-- npm start -->
   <!-- git add . -->
-  <!-- git commit"final" -->
+  <!-- git commit -m "final" -->
   <!-- git push -->
   <!-- npm run deploy -->
