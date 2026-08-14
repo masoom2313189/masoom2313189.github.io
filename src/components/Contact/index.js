@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import styled from "styled-components";
 import emailjs from "@emailjs/browser";
-import toast, { Toaster } from "react-hot-toast";
+import toast from "react-hot-toast";
 
 const Container = styled.div`
   display: flex;
@@ -170,13 +170,16 @@ const ContactButton = styled.button`
 `;
 
 const Contact = () => {
-  const form = useRef();
+  const form = useRef(null);
   const [loading, setLoading] = useState(false);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
 
     if (loading) return;
+
+    // Send click karte hi loading toast
+    const toastId = toast.loading("Sending your message...");
 
     try {
       setLoading(true);
@@ -185,18 +188,24 @@ const Contact = () => {
         "service_sowxxbl",
         "template_2qrfxb8",
         form.current,
-        "41D6VIVjNilV72Vli",
+        {
+          publicKey: "41D6VIVjNilV72Vli",
+        },
       );
 
+      // Same loading toast success me convert hoga
       toast.success("Email sent successfully!", {
+        id: toastId,
         duration: 4000,
       });
 
-      form.current.reset();
+      form.current?.reset();
     } catch (error) {
       console.error("EmailJS Error:", error);
 
+      // Same loading toast error me convert hoga
       toast.error(error?.text || "Failed to send email. Please try again.", {
+        id: toastId,
         duration: 5000,
       });
     } finally {
@@ -206,24 +215,6 @@ const Contact = () => {
 
   return (
     <Container>
-      <Toaster
-        position="top-center"
-        toastOptions={{
-          style: {
-            borderRadius: "12px",
-            padding: "14px 18px",
-            fontSize: "15px",
-            fontWeight: "500",
-          },
-          success: {
-            duration: 4000,
-          },
-          error: {
-            duration: 5000,
-          },
-        }}
-      />
-
       <Wrapper>
         <Title>Contact</Title>
 
@@ -239,6 +230,7 @@ const Contact = () => {
             type="email"
             placeholder="Your Email"
             name="from_email"
+            autoComplete="email"
           />
 
           <ContactInput
@@ -246,6 +238,7 @@ const Contact = () => {
             type="text"
             placeholder="Your Name"
             name="from_name"
+            autoComplete="name"
           />
 
           <ContactInput
