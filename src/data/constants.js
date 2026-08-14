@@ -1,6 +1,8 @@
+import smartImage from "../images/smart.png";
+
 export const Bio = {
   name: "Masoom Rizvi",
-  roles: ["Accountant", "Accounts Executive", "Frontend Developer"],
+  roles: ["Accountant", "Founder - Smart Maker", "Fullstack Developer"],
   description:
     "Results-driven Accountant & Computer Operator with 2+ years of experience streamlining office operations, managing financial data, and enhancing process efficiency. Proficient in Microsoft Word, Microsoft Excel, and ERP systems for accurate documentation, data analysis, inventory tracking, and business process optimization. Recognized for attention to detail, speed, and delivering high-quality results in fast-paced environments...",
   resume:
@@ -177,6 +179,19 @@ This provided me with a balanced foundation in both analytical and theoretical s
 ];
 
 export const projects = [
+  {
+    id: 11,
+    title: "Smart Maker",
+    date: "May 2026 - Present",
+    description:
+      "Smart Maker is a modern online platform for creating professional resumes, marriage biodata, and using useful PDF, image, calculator, and converter tools. I built and developed the platform as the Founder & Developer, focusing on a clean user experience, responsive design, and practical tools for everyday users.",
+    image: smartImage,
+    tags: ["Next.js", "React.js", "JavaScript", "Tailwind CSS", "Firebase"],
+
+    category: "full_stack",
+    github: "https://smartmaker.in",
+    webapp: "https://smartmaker.in",
+  },
   {
     id: 10,
     title: "Density Clone",
