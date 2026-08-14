@@ -189,7 +189,7 @@ const Contact = () => {
         "template_2qrfxb8",
         form.current,
         {
-          publicKey: "41D6VIVjNilV72Vli",
+          publicKey: "Xl9UqIgAdu1VIHapD",
         },
       );
 

@@ -52,7 +52,7 @@ function App() {
       <Router>
         {/* Global Toast */}
         <Toaster
-          position="top-center"
+          position="top-right"
           reverseOrder={false}
           containerStyle={{
             zIndex: 999999,
