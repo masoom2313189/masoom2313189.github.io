@@ -135,10 +135,12 @@ const EducationCard = ({ education }) => {
           <Date>{education.date}</Date>
         </Body>
       </Top>
-      <Grade>
-        <b>Percentage : </b>
-        {education.percentage}
-      </Grade>
+      {education?.percentage && (
+        <Grade>
+          <b>Percentage : </b>
+          {education.percentage}
+        </Grade>
+      )}
       <Description>
         <Span>{education.desc}</Span>
       </Description>

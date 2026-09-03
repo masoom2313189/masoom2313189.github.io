@@ -38,6 +38,7 @@ const Nav = styled.nav`
   flex-direction: row;
   gap: 2rem;
   justify-content: center;
+
   @media (max-width: 768px) {
     flex-wrap: wrap;
     gap: 1rem;
@@ -52,9 +53,11 @@ const NavLink = styled.a`
   text-decoration: none;
   font-size: 1.2rem;
   transition: color 0.2s ease-in-out;
+
   &:hover {
     color: ${({ theme }) => theme.primary};
   }
+
   @media (max-width: 768px) {
     font-size: 1rem;
   }
@@ -71,16 +74,34 @@ const SocialMediaIcon = styled.a`
   font-size: 1.5rem;
   color: ${({ theme }) => theme.text_primary};
   transition: color 0.2s ease-in-out;
+
   &:hover {
     color: ${({ theme }) => theme.primary};
   }
 `;
 
-const Copyright = styled.p`
-  margin-top: 1.5rem;
-  font-size: 0.9rem;
-  color: ${({ theme }) => theme.soft2};
-  text-align: center;
+const BottomFooter = styled.div`
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2px;
+  font-size: 16px;
+  text-align: left;
+
+  p {
+    margin: 0;
+  }
+
+  @media (max-width: 767px) {
+    display: block;
+    text-align: center;
+
+    p {
+      margin: 4px 0;
+    }
+  }
 `;
 
 function Footer() {
@@ -88,6 +109,7 @@ function Footer() {
     <FooterContainer>
       <FooterWrapper>
         <Logo>Masoom Rizvi</Logo>
+
         <Nav>
           <NavLink href="#about">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
@@ -95,21 +117,43 @@ function Footer() {
           <NavLink href="#education">Education</NavLink>
           <NavLink href="#projects">Projects</NavLink>
         </Nav>
+
         <SocialMediaIcons>
           <SocialMediaIcon href={Bio.linkedin} target="display">
             <LinkedInIcon />
           </SocialMediaIcon>
+
           <SocialMediaIcon href={Bio.phone} target="display">
             <PhoneIcon />
           </SocialMediaIcon>
+
           <SocialMediaIcon href={Bio.email} target="display">
             <EmailIcon />
           </SocialMediaIcon>
+
           <SocialMediaIcon href={Bio.github} target="display">
             <GitHubIcon />
           </SocialMediaIcon>
         </SocialMediaIcons>
-        <Copyright>&copy; 2026 Masoom Rizvi | All rights reserved.</Copyright>
+
+        <BottomFooter>
+          <p>&copy; 2026 Masoom Rizvi. All rights reserved.</p>
+
+          <p>
+            Designed &amp; Developed by{" "}
+            <a
+              href="https://smartmaker.in"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                color: "white",
+                textDecoration: "none",
+              }}
+            >
+              Smart Maker
+            </a>
+          </p>
+        </BottomFooter>
       </FooterWrapper>
     </FooterContainer>
   );

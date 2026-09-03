@@ -4,7 +4,7 @@ export const Bio = {
   name: "Masoom Rizvi",
   roles: ["Accountant", "Founder - Smart Maker", "Fullstack Developer"],
   description:
-    "Results-driven Accountant & Computer Operator with 2+ years of experience streamlining office operations, managing financial data, and enhancing process efficiency. Proficient in Microsoft Word, Microsoft Excel, and ERP systems for accurate documentation, data analysis, inventory tracking, and business process optimization. Recognized for attention to detail, speed, and delivering high-quality results in fast-paced environments...",
+    "Results-driven Accountant & Computer Operator with 2.5+ years of experience streamlining office operations, managing financial data, and enhancing process efficiency. Proficient in Microsoft Word, Microsoft Excel, and ERP systems for accurate documentation, data analysis, inventory tracking, and business process optimization. Recognized for attention to detail, speed, and delivering high-quality results in fast-paced environments...",
   resume:
     "https://drive.google.com/file/d/1OW34X7Qz7IPY_w7zqASVSYgzLFVyJ6Nb/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/masoom2313189/",
@@ -117,7 +117,7 @@ export const experiences = [
     img: "https://media.licdn.com/dms/image/v2/D4E0BAQGuoB7LYH86Dw/company-logo_200_200/company-logo_200_200/0/1723566248279/baba_projects_private_limited_logo?e=2147483647&v=beta&t=gpQHF3CuAW_W6qT_spJm7HbfwKIXRU8w7eNOQqHitwI",
     role: "Accountant",
     company: "Baba Projects Private Limited | DMRC i-CBTC S&T Project, Delhi",
-    date: "Nov 2024 - Feb 2026",
+    date: "Nov 2024 - Aug 2026",
     desc: "Carefully and accurately performed a variety of accounting, bookkeeping, and office tasks, supporting the team with day-to-day accounting operations. Checked and updated spreadsheets for accuracy, worked efficiently with Enterprise Resource Planning (ERP) and Excel accounting software, and assisted with weekly accounts payable processes. Researched, monitored, and resolved accounting or documentation discrepancies, while entering key financial transaction data into ERP systems to maintain accurate and up-to-date records.",
     // skills: ["React", "Redux", "JavaScript", "HTML", "CSS"],
     // exp: "https://drive.google.com/file/d/1hqRPX3fLh8KkiqEDeXT9bT27HFtB0TQI/view?usp=sharing",
@@ -147,27 +147,37 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "https://play-lh.googleusercontent.com/kZOvDDG5iSnkCt8nAnQG3JKLNRGLLcy81WQ4t0lbfGPx2PB-IpAl4rD7aQmGg0SPDw",
-    school: "Raj Narain College, Hajipur (BRABU, Muzaffarpur)",
-    date: "Completed in 2023",
-    percentage: "69.9%",
-    desc: `I have successfully completed my Bachelor's degree in Computer Science from R. N. College, Hajipur.
-          Along with core subjects like programming, databases, and computer systems, my coursework also included Accounting and Business Management, which enhanced my understanding of financial processes.
-          This combination of technical knowledge and accounting concepts has equipped me to work efficiently in roles that require both analytical and financial skills, such as my current position as an Assistant Accountant.`,
-    degree: "Bachelor of Computer Applications (BCA)",
+    img: "https://images.seeklogo.com/logo-png/43/1/chandigarh-university-cu-logo-png_seeklogo-432515.png",
+    school: "Chandigarh University (CU, Chandigarh)",
+    date: "Pursuing",
+    percentage: "",
+    desc: `I am currently pursuing a Master of Business Administration (MBA) with a dual focus on Finance and Product Management. My studies are strengthening my knowledge of financial management, accounting, business strategy, product planning, and data-driven decision-making. Combined with my Bachelor's degree in Computer Applications and professional experience as an Accountant, this academic background is helping me develop a strong blend of technical, financial, and business management skills. This combination prepares me for roles that require analytical thinking, financial expertise, business understanding, and effective product decision-making.
+`,
+    degree: "MBA (Finance & Product Management)",
   },
   {
     id: 1,
+    img: "https://play-lh.googleusercontent.com/kZOvDDG5iSnkCt8nAnQG3JKLNRGLLcy81WQ4t0lbfGPx2PB-IpAl4rD7aQmGg0SPDw",
+    school: "Raj Narain College, Hajipur (BRABU, Muzaffarpur)",
+    date: "Completed in 2023",
+    percentage: "70%",
+    desc: `I have successfully completed my Bachelor's degree in Computer Science from R. N. College, Hajipur.
+          Along with core subjects like programming, databases, and computer systems, my coursework also included Accounting and Business Management, which enhanced my understanding of financial processes.
+          This combination of technical knowledge and accounting concepts has equipped me to work efficiently in roles that require both analytical and financial skills, such as my current position as an Assistant Accountant.`,
+    degree: "BCA (Computer Applications)",
+  },
+  {
+    id: 2,
     img: "https://pbs.twimg.com/profile_images/1645719908247031808/GQDKrxnF_400x400.jpg",
     school: "Jamuni Lal College, Hajipur (BSEB, Patna)",
     date: "Completed in 2020",
-    percentage: "60.4%",
+    percentage: "60%",
     desc: `I completed my Class 12 education in the Science stream at Jamuni Lal College, Hajipur.
 My studies included core subjects such as Physics, Chemistry, and Mathematics, which helped me build a strong foundation in analytical thinking and problem-solving.`,
     degree: "Intermediate (Science)",
   },
   {
-    id: 2,
+    id: 3,
     img: "https://pbs.twimg.com/profile_images/1645719908247031808/GQDKrxnF_400x400.jpg",
     school: "Sahyogi Higher Sec. School, Hajipur (BSEB, Patna)",
     date: "Completed in 2018",
